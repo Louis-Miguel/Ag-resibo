@@ -22,12 +22,15 @@ const Team = () => {
           title={"Alfonso Luis De Los Reyes"}
           picture={luis}
           description={
-            "Transferee Computer Science Student waiting to transfer my ideas from paper to reality"
+            "Second Year Computer Science Student. Likes Computers"
           }
-        />
+          />
         <TeamCard
           title={"Anthony Aaron Lazaro"}
           picture={anthony}
+          description={
+            "Transferee Computer Science Student waiting to transfer my ideas from paper to reality"
+          }
         />
       </div>
     </Section>
