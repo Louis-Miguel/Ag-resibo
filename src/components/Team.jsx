@@ -12,17 +12,17 @@ const Team = () => {
       
         <TeamCard
           title={"Louis Miguel Fermiza"}
-          picture={"public/louis.jpg"}
+          picture={"louis.jpg"}
           description={"A Computer Science Student with a passion for challenging himself with new things in life."}
         />
         <TeamCard
           title={"Alfonso Luis De Los Reyes"}
-          picture={"public/luis.jpg"}
+          picture={"luis.jpg"}
           description={"Transferee Computer Science Student waiting to transfer my ideas from paper to reality"}
         />
         <TeamCard
           title={"Anthony Aaron Lazaro"} 
-          picture={"public/anthony.jpg"}
+          picture={"anthony.jpg"}
         />
 
       </div>

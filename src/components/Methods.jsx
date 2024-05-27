@@ -12,7 +12,7 @@ const Methods = () => {
             className={`md:flex even:md:translate-y-[10rem] p-0.25 rounded-[2.5rem] bg-neutral-600`}
           >
             <div className="relative p-2 bg-neutral-800 rounded-[2.4375rem] overflow-hidden xl:p-4">
-              <img className="rounded-[2.4375rem]" src="public/nutshell.png" />
+              <img className="rounded-[2.4375rem]" src="nutshell.png" />
               <p className="mt-4 text-center">Nutshell plot</p>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Methods = () => {
             <div className="relative p-2 bg-neutral-800 rounded-[2.4375rem] overflow-hidden xl:p-4">
               <img
                 className="rounded-[2.4375rem]"
-                src="public/rq1cpitemp.png"
+                src="rq1cpitemp.png"
               />
               <p className="mt-4 text-center">
                 Plot for the First Research Question
@@ -35,7 +35,7 @@ const Methods = () => {
             <div className="relative p-2 bg-neutral-800 rounded-[2.4375rem] overflow-hidden xl:p-4">
               <img
                 className="rounded-[2.4375rem]"
-                src="public/rq1cpitemp.png"
+                src="rq1cpitemp.png"
               />
               <p className="mt-4 text-center">
                 Plot for the Second Research Question
@@ -63,7 +63,7 @@ const Methods = () => {
         <p className="body-2 mb-[2rem] ml-4 text-zinc-100">
           <img
             className="rounded-[2.4375rem] w-[40rem] mx-auto my-5"
-            src="public/hypothesis.png"
+            src="hypothesis.png"
           />
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ut
           necessitatibus hic sit, fugiat quas tenetur nesciunt iusto mollitia,
