@@ -1,5 +1,6 @@
 import React from "react";
 import Section from "./Section";
+import bg from "../assets/images/bg.jpg"
 
 const Overview = () => {
   return (
@@ -8,7 +9,7 @@ const Overview = () => {
         <h2 className="h2 mb-6 text-center">Overview</h2>
         <div className="relative">
           <div className="relative  bg-gradient-to-b from-zinc-800/0 to-zinc-800/90 z-1 flex items-center h-[39rem] mb-5 p-8 border  border-white rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <img className="h-[40rem] w-[44rem] rounded-lg object-cover" src="bg.png"/>
+            <img className="h-[40rem] w-[44rem] rounded-lg object-cover" src={bg}/>
             <div className="relative z-1 max-w-[24rem] ml-auto">
               <h4 className="h4 mb-4">Motivation</h4>
               <p className="body-2 mb-[3rem] text-zinc-100">

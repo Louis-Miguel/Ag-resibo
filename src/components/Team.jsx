@@ -1,6 +1,8 @@
 import Section from "./Section";
 import TeamCard from "./TeamCard";
 import luis from "../assets/images/luis.jpg"
+import louis from "../assets/images/louis.jpg"
+import anthony from "../assets/images/anthony.jpg"
 
 const Team = () => {
   return (
@@ -11,7 +13,7 @@ const Team = () => {
       <div class="mx-auto my-16 flex max-w-7xl flex-wrap justify-center gap-8">
         <TeamCard
           title={"Louis Miguel Fermiza"}
-          picture={"cs-132-project-portfolio/public/louis.jpg"}
+          picture={louis}
           description={
             "A Computer Science Student with a passion for challenging himself with new things in life."
           }
@@ -25,7 +27,7 @@ const Team = () => {
         />
         <TeamCard
           title={"Anthony Aaron Lazaro"}
-          picture={"cs-132-project-portfolio/public/anthony.jpg"}
+          picture={anthony}
         />
       </div>
     </Section>
