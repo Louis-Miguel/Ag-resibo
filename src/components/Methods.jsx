@@ -1,7 +1,7 @@
 import Section from "./Section";
-import nutshell from "../assets/images/nutshell.jpg";
-import rq1cpitemp from "../assets/images/rq1cpitemp.jpg";
-import hypothesis from "../assets/images/hypothesis.jpg";
+import nutshell from "../assets/images/nutshell.png";
+import rq1cpitemp from "../assets/images/rq1cpitemp.png";
+import hypothesis from "../assets/images/hypothesis.png";
 
 const Methods = () => {
   return (

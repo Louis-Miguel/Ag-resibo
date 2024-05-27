@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import bg from "../assets/images/bg.jpg"
+import bg from "../assets/images/bg.png"
 
 const Overview = () => {
   return (
