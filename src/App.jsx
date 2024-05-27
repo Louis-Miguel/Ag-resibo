@@ -1,6 +1,8 @@
 import Data from "./components/Data";
 import Header from "./components/Header";
+import Methods from "./components/Methods";
 import Overview from "./components/Overview";
+import Team from "./components/Team";
 import Top from "./components/Top";
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
         <Top />
         <Overview />
         <Data />
+        <Methods />
+        <Team />
       </div>
     </>
   );
