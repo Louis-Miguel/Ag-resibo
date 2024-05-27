@@ -1,5 +1,6 @@
 import Section from "./Section";
 import TeamCard from "./TeamCard";
+import luis from "../assets/images/luis.jpg"
 
 const Team = () => {
   return (
@@ -17,7 +18,7 @@ const Team = () => {
         />
         <TeamCard
           title={"Alfonso Luis De Los Reyes"}
-          picture={"cs-132-project-portfolio/public/luis.jpg"}
+          picture={luis}
           description={
             "Transferee Computer Science Student waiting to transfer my ideas from paper to reality"
           }
