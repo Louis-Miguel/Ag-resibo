@@ -37,7 +37,7 @@ const Results = () => {
                   <p className="body-2 mb-[1rem] text-zinc-100">
                     This means that as the temperature rises within this
                     specific range, crop production is likely to increase. The
-                    closer the value is to 1{" "}(or -1) the stronger the positive
+                    closer the value is to 1 (or -1) the stronger the positive
                     (or negative) correlation is, and the closer the value is to
                     0, the weaker the correlation is. The correlation value
                     between temperature and crop production indicates that there
@@ -114,19 +114,12 @@ const Results = () => {
                 <div className="py-8 px-4 xl:px-8">
                   <h4 className="h4 mb-4">Implications</h4>
                   <p className="body-2 mb-[1rem] text-zinc-100">
-                    This means that as the temperature rises within this
-                    specific range, crop production is likely to increase. The
-                    closer the value is to 1 (or -1) the stronger the positive
-                    (or negative) correlation is, and the closer the value is to
-                    0, the weaker the correlation is. The correlation value
-                    between temperature and crop production indicates that there
-                    is a positive correlation between temperature and crop
-                    yields. This means that the higher the temperature (at the
-                    specified range), the more crop yield there will be. The
-                    correlation value between precipitation and crop production
-                    suggests that the amount of precipitation (within the
-                    specified range) does not have a very significant impact on
-                    the yield of crops.
+                    The data, together with the calculated correlation of -0.923
+                    between GDP% and CO2e indicates a very strong negative
+                    relationship. As GDP% increases, CO2e emissions tend to
+                    decrease, and vice versa. This implies that higher economic
+                    output from agriculture is associated with lower carbon
+                    emissions
                   </p>
                 </div>
               </div>
@@ -134,16 +127,10 @@ const Results = () => {
                 <div className="py-8 px-4 xl:px-8">
                   <h4 className="h4 mb-4">Limitations</h4>
                   <p className="body-2 mb-[1rem] text-zinc-100">
-                    However, this analysis is limited to the observed range, and
-                    the impact of temperatures outside this range, along with
-                    other factors such as changes in precipitation, extreme
-                    weather events, and CO2 levels are not addressed in this
-                    particular graph. The increase in crop productivity can also
-                    not be necessarily attributed to temperature, because there
-                    is a clear linear rate of increase in CPI from 1961 - 2022,
-                    and while there is a slight rate of increase in temperature
-                    along the same date range, improvements in agriculture
-                    technologies were sure to have affected crop productivity.
+                    The data only has a small sample range (from 1990 to 2020),
+                    which can obviously bias calculations in one direction or
+                    another. This essentially shares the same limitations with
+                    our first research question.
                   </p>
                 </div>
               </div>
