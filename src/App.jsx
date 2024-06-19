@@ -2,6 +2,7 @@ import Data from "./components/Data";
 import Header from "./components/Header";
 import Methods from "./components/Methods";
 import Overview from "./components/Overview";
+import Results from "./components/Results";
 import Team from "./components/Team";
 import Top from "./components/Top";
 
@@ -14,6 +15,7 @@ function App() {
         <Overview />
         <Data />
         <Methods />
+        <Results />
         <Team />
       </div>
     </>

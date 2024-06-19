@@ -1,17 +1,24 @@
 import React from "react";
 import Section from "./Section";
-import bg from "../assets/images/bg.png"
+import bg from "../assets/images/bg.png";
 
 const Overview = () => {
   return (
     <Section id="overview" crosses>
       <div className="container">
-        <h2 className="h2 mb-6 text-center">Overview</h2>
+        <h2 className="h3 mb-6 text-center font-bold">
+          Let's Have a Brief Overview on our Project!
+        </h2>
         <div className="relative">
           <div className="relative  bg-gradient-to-b from-zinc-800/0 to-zinc-800/90 z-1 flex items-center h-[39rem] mb-5 p-8 border  border-white rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <img className="h-[40rem] w-[44rem] rounded-lg object-cover" src={bg}/>
+            <img
+              className="hidden h-[40rem] w-[44rem] rounded-lg object-cover md:inline"
+              src={bg}
+            />
             <div className="relative z-1 max-w-[24rem] ml-auto">
-              <h4 className="h4 mb-4">Motivation</h4>
+              <h4 className="h4 mb-4">
+                What Motivated Us in Doing this Project?
+              </h4>
               <p className="body-2 mb-[3rem] text-zinc-100">
                 Tackling the United Nation's 13th Sustainable Development Goal
                 (Climate Action) is arguably one of the most important
@@ -28,9 +35,9 @@ const Overview = () => {
         </div>
 
         <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-          <div className="relative min-h-[39rem] border border-white rounded-3xl overflow-hidden">
+          <div className="relative min-h-[46rem] border border-white rounded-3xl overflow-hidden">
             <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-zinc-800/0 to-zinc-800/90 lg:p-15">
-              <h4 className="h4 mb-4">Problems/Questions</h4>
+              <h4 className="h4 mb-4">What Problems Do We Seek to Answer?</h4>
               <h6 className="h6">Primary Research Question</h6>
               <p className="body-2 mb-[1rem] text-zinc-100">
                 How does climate change affect the crop productivity of the
@@ -55,15 +62,15 @@ const Overview = () => {
               </p>
               <h6 className="h6">Secondary Research Question</h6>
               <p className="body-2 mb-[1rem] text-zinc-100">
-                What recent policies have been enacted that affect the
-                greenhouse gas emission rate of the Philppines?
+                How does the % of Agriculture in GDP correlate with the CO2
+                emissions of the Philippines?
                 <p className="my-2 ml-4">
-                  - Intends to find out if the climate change policies enacted
-                  by the Philippines have any effect on the actual greenhouse
-                  gas emission rate of the Philippines. Further analysis of this
-                  data could lead to possible links between the agricultural
-                  productivity of the Philippines and the Greenhouse Gas
-                  emission rate of the country.
+                  - Intends to find out if the economic output of Agriculture of
+                  the Philippines has any effect on the greenhouse gas emission
+                  rate of the Philippines. Further analysis of this data could
+                  lead to possible links between the agricultural productivity
+                  of the Philippines and the Greenhouse Gas emission rate of the
+                  country.
                 </p>
               </p>
             </div>
@@ -71,7 +78,7 @@ const Overview = () => {
 
           <div className="p-4  bg-gradient-to-b from-zinc-800/0 to-zinc-800/90 border border-white rounded-3xl overflow-hidden lg:min-h-[46rem]">
             <div className="py-12 px-4 xl:px-8">
-              <h4 className="h4 mb-4">Solution/Action Plan</h4>
+              <h4 className="h4 mb-4">How Would We Solve These Problems?</h4>
               <p className="body-2 mb-[3rem] text-zinc-100">
                 Analyze the changes in the crop productivity of the Philippines
                 throughout the years and find out if there is a correlation
@@ -84,25 +91,27 @@ const Overview = () => {
                   <li>GHG Emissions</li>
                 </ul>
               </p>
-              <h4 className="h4 mb-4">Null Hypothesis</h4>
+              <h4 className="h4 mb-4">Here are Our Hypotheses!</h4>
+              <h4 className="h6 mb-2">Null Hypothesis</h4>
               <p className="body-2 mb-[2rem] text-zinc-100">
                 Research Question 1: Climate Change has no effect on the crop
                 productivity of the Philippines
               </p>
               <p className="body-2 mb-[2rem] text-zinc-100">
-                Research Question 2: There are no recent policies that have been
-                enacted that affect the greenhouse gas emission rate of the
-                Philippines.
+                Research Question 2:There is no correlation between the % of the
+                Philippine GDP contributed by Agriculture and the Greenhous Gas
+                Emission rate of the country.
               </p>
-              <h4 className="h4 mb-4">Alternative Hypothesis</h4>
+              <h4 className="h6 mb-2">Alternative Hypothesis</h4>
               <p className="body-2 mb-[2rem] text-zinc-100">
                 Research Question 1: Climate Change lowers crop productivity in
                 the Philippines
               </p>
               <p className="body-2 mb-[2rem] text-zinc-100">
-                Research Question 2: The recent policies that have been enacted
-                in the Philippines lower greenhouse gas emission rate in the
-                Philippines.
+                Research Question 2: An increase in the GDP share of agriculture
+                leads to a decrease in the greenhouse gas emission rate of the
+                country.An increase in the GDP share of agriculture leads to a
+                decrease in the greenhouse gas emission rate of the country.
               </p>
             </div>
           </div>

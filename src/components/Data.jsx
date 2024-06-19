@@ -4,11 +4,11 @@ import Section from "./Section";
 const Data = () => {
   return (
     <Section id="data" crosses>
-      <h1 class="mb-6 text-center text-xl font-bold md:text-3xl">
+      <h1 class="mb-6 text-center font-bold h3">
         By going around the Net, we've collected our data and curated our
         dataset
       </h1>
-      <h6 class="mb-6 text-center text-s text-zinc-200 md:text-m max-w-[80rem] mx-auto">
+      <h6 class="mb-6 text-center text-s text-zinc-200 md:text-m lg:max-w-[80rem] max-w-[30rem] mx-auto">
         This dataset combines agricultural and climate data to investigate how
         climate change affects crop productivity. It tracks crop types, planted
         areas, and yields across various locations. Detailed climate records

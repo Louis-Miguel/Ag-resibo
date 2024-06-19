@@ -7,7 +7,7 @@ import hypothesis from "../assets/images/hypothesis.png";
 const Methods = () => {
   return (
     <Section id="methods" crosses>
-      <h1 class="mb-12 6 text-center text-xl font-bold md:text-3xl ">
+      <h1 class="mb-12 text-center font-bold h3 ">
         By Exploring our Data through Python, We are able to get these Graphs!
       </h1>
       <div className="container md:pb-10">
@@ -71,6 +71,14 @@ const Methods = () => {
           coefficient, displayed in the cell, is 0.66. The value of 0.66
           suggests that as the temperature increases, the Crop Production Index
           tends to increase as well.
+
+          <img
+            className="rounded-[2.4375rem] w-[40rem] mx-auto my-5"
+            src={rq1}
+          />
+          <p className="text-center mb-6">
+            Main Research Question Graph
+          </p>
           <h6 className="h6 my-3">
             First Graph Takeaways(Graph for Main Research Question)
           </h6>
@@ -88,6 +96,13 @@ const Methods = () => {
             from this graph is that warmer temperatures seem to be associated
             with better crop growth, based on the data that was collected.
           </p>
+          <img
+            className="rounded-[2.4375rem] w-[40rem] mx-auto my-5"
+            src={rq2}
+          />
+          <p className="text-center mb-6">
+            Secondary Research Question Graph
+          </p>
           <h6 className="h6 my-3">
             Second Graph Takeaways(Graph for Secondary Research Question)
           </h6>
@@ -103,7 +118,7 @@ const Methods = () => {
           </p>
         </p>
 
-        <h4 className="h4 font-bold mb-4">Analysis</h4>
+        <h4 className="h4 font-bold mb-4">Hypothesis Testing</h4>
         <p className="body-2 mb-[2rem] ml-4 text-zinc-100">
           The chi-square test of independence is used to determine if there is a
           significant association between two categorical variables. For this
