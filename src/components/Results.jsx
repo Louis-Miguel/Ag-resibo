@@ -6,9 +6,9 @@ const Results = () => {
     <Section id="results" crosses>
       <div>
         <div className="container">
-          <h1 class="mb-12 text-center font-bold h3">
+          <h2 class="mb-12 text-center font-bold h3">
             Here's What We Found Out About the Data We Analyzed and Modeled
-          </h1>
+          </h2>
 
           <h1 class="mb-4 font-bold h4">
             From Interpreting Our Data Analysis Graphs for Research Question 1:
