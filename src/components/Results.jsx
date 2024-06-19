@@ -116,7 +116,7 @@ const Results = () => {
                   <p className="body-2 mb-[1rem] text-zinc-100">
                     This means that as the temperature rises within this
                     specific range, crop production is likely to increase. The
-                    closer the value is to 1(or -1) the stronger the positive
+                    closer the value is to 1 (or -1) the stronger the positive
                     (or negative) correlation is, and the closer the value is to
                     0, the weaker the correlation is. The correlation value
                     between temperature and crop production indicates that there
