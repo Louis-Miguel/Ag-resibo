@@ -110,8 +110,7 @@ const Overview = () => {
               <p className="body-2 mb-[2rem] text-zinc-100">
                 Research Question 2: An increase in the GDP share of agriculture
                 leads to a decrease in the greenhouse gas emission rate of the
-                country.An increase in the GDP share of agriculture leads to a
-                decrease in the greenhouse gas emission rate of the country.
+                country.
               </p>
             </div>
           </div>
