@@ -4,6 +4,9 @@ import Section from "./Section";
 const Data = () => {
   return (
     <Section id="data" crosses>
+      <div className="container">
+
+
       <h2 class="mb-6 text-center font-bold h3 mx-auto max-w-[80rem]">
         By going around the Net, we've collected our data and curated our
         dataset
@@ -91,6 +94,7 @@ const Data = () => {
             Philippine Weather data from 2022-2023
           </li>
         </ul>
+      </div>
       </div>
     </Section>
   );

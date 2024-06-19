@@ -7,6 +7,7 @@ import hypothesis from "../assets/images/hypothesis.png";
 const Methods = () => {
   return (
     <Section id="methods" crosses>
+      <div className="container">
       <h2 class="mb-6 text-center font-bold h3 mx-auto max-w-[80rem]">
         By Exploring our Data through Python, We are able to get these Graphs!
       </h2>
@@ -216,6 +217,7 @@ const Methods = () => {
             Check how our data are explored
           </button>
         </a>
+      </div>
       </div>
     </Section>
   );
